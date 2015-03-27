@@ -28,9 +28,22 @@ def new
 end
 
 def edit
+  respond_to do |format|
+    format.json { render json: @farmer.to_json}
+  end
+end
+
+def update
+  respond_to do |format|
+    format.json { render json: @farmer.to_json}
+  end
 end
 
 def destroy
+  @farmer.destroy, method: :delete
+  respond_to do |format|
+    format.json { render json: @farmer.to_json }
+  end
 end
 
 private
