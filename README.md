@@ -6,7 +6,7 @@
 <h2>Technology:</h2>
 <p><h5>Front-End: The user interface was built using the AngularJs framework. </h5></p>
 
-<p><h5>Back-end: </h5></p>
+<p><h5>Back-end: Built with Ruby on Rails, user authentication with devise. </h5></p>
 <h2></h2>
 
 
